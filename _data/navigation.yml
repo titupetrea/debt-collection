@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Debts
+  link: /debts.html
+- name: Debtors
+  link: /debtors.html
+- name: Cases
+  link: /cases.html
+- name: Settings
+  link: /settings.html
+
