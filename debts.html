@@ -2,26 +2,35 @@
 layout: default
 title: Debts
 ---
-<div>
- <h1>Debts</h1>
- <div>
-  <button>Add</button>
-  <button>Import</button>
-  <button>Search</button>
+<div class="card-header">
+ <div class="card-actions float-right">
+  <div class="d-inline-block dropdown">
+   <a href="#" data-toggle="dropdown" data-display="static" aria-expanded="true">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+   </a>
+   <div class="dropdown-menu dropdown-menu-right">
+    <a class="dropdown-item" href="#">Add</a>
+    <a class="dropdown-item" href="#">Import</a>
+    <a class="dropdown-item" href="#">Search</a>
+   </div>
+  </div>
  </div>
+ <h5 class="card-title mb-0">Debts</h5>
 </div>
-<table>
- <thead>
-  <tr>
-   <th>Amount</th>
-   <th>Bill Date</th>
-   <th>Bill Due Date</th>
-   <th>Bill Number</th>
-   <th>Debtor</th>
-   <th>Status</th>
-   <th>Actions</th>
-  </tr>
- </thead>
- <tbody>
- </tbody>
-</table>
+<div class="card-body">
+ <table class="table">
+  <thead>
+   <tr>
+    <th scope="col">Amount</th>
+    <th scope="col">Bill Date</th>
+    <th scope="col">Bill Due Date</th>
+    <th scope="col">Bill Number</th>
+    <th scope="col">Debtor</th>
+    <th scope="col">Status</th>
+    <th scope="col">Actions</th>
+   </tr>
+  </thead>
+  <tbody>
+  </tbody>
+ </table>
+</div>
